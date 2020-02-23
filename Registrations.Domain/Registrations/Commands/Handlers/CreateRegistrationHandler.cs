@@ -1,5 +1,4 @@
 ﻿using Kledex.Commands;
-using System;
 using System.Threading.Tasks;
 
 namespace Registrations.Domain.Registrations.Commands.Handlers

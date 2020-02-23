@@ -1,6 +1,8 @@
-﻿namespace Registrations.Domain.Registrations
+﻿using Kledex.Domain;
+
+namespace Registrations.Domain.Registrations
 {
-	public class RegistrationTarget
+	public class RegistrationTarget : Kledex.Domain.Entity
 	{
 	}
 }
