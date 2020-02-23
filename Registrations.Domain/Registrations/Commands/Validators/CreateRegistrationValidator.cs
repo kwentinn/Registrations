@@ -9,6 +9,14 @@ namespace Registrations.Domain.Registrations.Commands.Validators
 			RuleFor(c => c.Person)
 				.NotNull().WithMessage("Person is required")
 			;
+
+			RuleFor(c => c.RegistrationTarget)
+				.NotNull().WithMessage("Registration target is required")
+			;
+
+			RuleFor(c => c.RegistrationDate)
+				.NotNull().WithMessage("Registration date is required")
+			;
 		}
 	}
 }
